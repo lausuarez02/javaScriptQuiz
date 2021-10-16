@@ -15,11 +15,16 @@
     margin-top: 20px;
     justify-content: space-between;
 }
-.btn-primary{
+.list-group-item{
     background-color: black;
     border: 2px solid white;
+    color: white;
+    cursor: pointer;
 }
-.btn-primary:hover{
+.list-group-item:hover{
     background-color: rgb(48, 45, 45);
     border: 2px solid white;
+}
+.btn-primary::after{
+    background-color: black;
 }

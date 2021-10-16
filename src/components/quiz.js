@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import questions from '../constants/text';
+//constants
+import * as constants from '../constants/const';
 //css
 import './quiz.css';
 
@@ -7,6 +9,7 @@ function Quiz(){
     const [currentQuestion, setCurrentQuestion] = useState(0);
 	const [showScore, setShowScore] = useState(false);
 	const [score, setScore] = useState(0);
+    //const [message, setMessage] = useState("hola");
 
 	const handleAnswerOptionClick = (isCorrect) => {
 		if (isCorrect) {
@@ -19,6 +22,10 @@ function Quiz(){
 		} else {
 			setShowScore(true);
 		}
+        
+        /*if(showScore === true && score <= 3){
+            setMessage(constants.SCORED_CASES_01)
+        }*/
 	};
 	return (
 		<div className='app'>
@@ -36,7 +43,13 @@ function Quiz(){
 					</div>
 					<div className='answer-section'>
 						{questions[currentQuestion].answerOptions.map((answerOption) => (
-							<button onClick={() => handleAnswerOptionClick(answerOption.isCorrect)} className='btn btn-primary'>{answerOption.answerText}</button>
+                            <ul class="list-group">
+                                <li 
+                                class="list-group-item"
+                                onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>
+                                    {answerOption.answerText}    
+                                </li>
+                            </ul>
 						))}
 					</div>
 				</>

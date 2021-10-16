@@ -1,7 +1,7 @@
 //vendors
 import './App.css';
 //router
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 //screen
 import HomeScreen from './screens/HomeScreen';
 import QuizScreen from './screens/QuizScreen';
