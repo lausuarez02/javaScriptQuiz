@@ -1,0 +1,41 @@
+.navbar-new{
+    border-bottom:2px solid white;
+}
+.container-fluid{
+    background-color: black;
+   
+}
+.navbar-brand{
+    text-align: center;
+    color: white;
+}
+.navbar-brand:hover{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: white;
+    text-decoration: underline;
+}
+.navbar-toggler-icon{
+    background-color: white;
+    height: 2px;
+    width: 20px;
+}
+.line{
+    background-color: wheat;
+    height: 100px;
+}
+
+.link-nav{
+    text-decoration: none;
+    color: white;
+}
+.link-nav:hover{
+    text-decoration: none;
+    color: white;
+}
