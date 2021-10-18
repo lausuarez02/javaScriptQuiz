@@ -7,7 +7,7 @@ import Footer from '../components/footer';
 //css
 import './HomeScreen.css';
 //router
-import {Link} from 'react-router-dom'
+
 
 function HomeScreen(){
     return(

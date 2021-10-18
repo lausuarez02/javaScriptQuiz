@@ -4,7 +4,7 @@ import './footer.css';
 function Footer(){
     return(
         <div className="footer">
-<div class="navbar navbar-fixed-bottom">
+<div class="navbar ">
       <div class="container">
         <p class="navbar-text">© Quiz</p>
       </div>
