@@ -1,28 +1,28 @@
 .navbar-new{
-    border-bottom:2px solid white;
+    border-bottom:2px solid black;
 }
 .container-fluid{
-    background-color: black;
+    background-color: #cddafd;
    
 }
 .navbar-brand{
     text-align: center;
-    color: white;
+    color: black;
 }
 .navbar-brand:hover{
     text-align: center;
-    color: white;
+    color: black;
     text-decoration: underline;
 }
 .nav-link{
-    color: white;
+    color: black;
 }
 .nav-link:hover{
-    color: white;
+    color: black;
     text-decoration: underline;
 }
 .navbar-toggler-icon{
-    background-color: white;
+    background-color: black;
     height: 2px;
     width: 20px;
 }
@@ -33,9 +33,9 @@
 
 .link-nav{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .link-nav:hover{
     text-decoration: none;
-    color: white;
+    color: black;
 }
